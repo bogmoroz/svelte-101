@@ -12,7 +12,14 @@
   }
 </script>
 
+<style>
+  h4 {
+    color: red;
+  }
+</style>
+
 <div>
+  <h4>Quiz</h4>
   {#if result}
     <h4>{result}</h4>
   {:else}
